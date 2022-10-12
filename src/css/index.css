@@ -1,0 +1,41 @@
+body{
+    background-color: burlywood;
+    height: 100%;
+    margin: 0;
+}
+
+
+#tetris{
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 130px;
+}
+
+
+#nextFigure{
+    position: absolute;
+}
+
+canvas{
+    background-color: black;
+}
+
+
+
+.game-wrapper{
+    margin-right: 200px;
+    float: right;
+    position: relative;
+    width: 600px;
+}
+
+.header{
+    text-align: center;
+    color: black;
+}
+
+.info-wrapper{
+    float: left;
+    font-size: 16pt;
+    margin-left: 400px;
+}

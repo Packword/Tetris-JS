@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Tetris</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h2> Игра тетрис </h2>
+        </div>
+        <div class="info-wrapper">
+            Игрок <b id="name-place"></b><br/>
+            Счёт: <b id="score-place"></b><br/>
+            Уровень: <b id="level-place"></b>
+            <p id="scores">
+
+            </p>
+        </div>
+        <div class="game-wrapper">
+            <canvas id="nextFigure" width="128" height="128"></canvas>
+            <canvas id="tetris" width="320" height="640"></canvas>
+        </div>
+    </div>
+</body>
+
+<script src="../javascript/index.js"></script>
+</html>
